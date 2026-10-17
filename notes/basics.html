@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud-notes</title>
+</head>
+<body>
+    <h1>Cloud Computing</h1>
+    <p>Cloud is a delivery of computing services over the internet </p>
+
+    <p>Server: a computer that serves things (websites,files,apps) to other 
+        computers over a network running 24/7
+    </p>
+
+    <h2>Own server vs Cloud</h2>
+
+    <ul>
+        <li>
+            <p><b>Own Server:</b> You buy and maintain it yourself. you get full control,buy upgrades, power and repairs
+                are all on you 
+            </p>
+            <ul>
+                <li><b>Downside:</b>A big upfront cost, and you fix everything yourself. if anything goes wrong your responsible</li>
+            </ul>
+        </li>
+        <li>
+            <p><b>Cloud:</b>You rent an already made resource from a provider (Microsoft) and you pay as you go 
+                
+            </p>
+
+            <ul>
+              <li><b>Downside:</b> The bill never stops, surprise costs if you leave things running you need internet and you have less control</li>
+            </ul>
+
+        </li>
+        
+    </ul>
+
+    <h2>CapEx vs OpEx</h2>
+
+    <ul>
+        <Li><p><b>CapEx (Capital Expenditure):</b> A big payment upfront to buy something you own, like servers</p></Li>
+        <li><p><b>OpEx (Operational Expenditure):</b>Paying as you go for what you use, which is the cloud</p></li>
+    </ul>
+
+    <h2>Scalability </h2>
+
+    <ul>
+        <li><p><b>Scaling up(vertical):</b> Making one machine stronger with more <i>CPU</i> or <i>RAM</i></p></li>
+        <li><p><b>Scaling out(horizontal):</b> Adding more machines to share the work, best for sudden spikes during a companies premiere</p></li>
+        <li><p><b>Autoscaling:</b> Your cloud provider (Azure,Google cloud,AWS) adds or removes machines automatically depending on your CPU load or traffic, it also helps save money so you dont pay for machines you dont use  </p></li>   
+    </ul>
+
+    <h2>Elasticity</h2>
+    <ul>
+        <li>
+            <p>The cloud automatically adds resources when demand goes up and removes them when it drops</p>
+        </li>
+        <li><p><b>Scalability vs elasticity:</b> scalability means you can grow. elasticity means growing and shrinking happen automatically with demand, so you only pay for what you use</p></li>
+    </ul>
+
+    <h2>High Availabity</h2>
+    <ul>
+        <li>Your app stays up and running with as little <i>downtime</i> as possible</li>
+        <li>An <u>SLA (Service Level Agreement)</u> is the providers promise of uptime. 99.9% is about 8.7 hours of downtime a year, and 99.99% is about 52 minutes of downtime a year </li>
+        <li><p><b>Failover:</b> If one machine or datacenter fails, traffic switches to a backup automatically, so user dont notice.</p></li>
+    </ul>
+        
+    <h2>Region and Availabity zones</h2>
+
+    <ul>
+        <li><p><b>Region:</b> It's a geographic area <i>Ex.(West Europe(Netherlands), North Europe(Ireland))</i> containing several Availabity zones, you pick one close to your users so the app loads faster and your data stays in the country</p></li>
+        <ul>
+            <Li><p><b>Paired region:</b> Usually 2 regions in the same geography these are made as a disaster recovery , if a region goes own the paired region that has a copy of that app goes up in cover for it  </p></Li>
+        </ul>
+        <li><p><b>Availability zones:</b> One or more physical <i>datacenters</i> within a cloud provider's region, each with its own power, cooling , network if one zone fails, the app keeps running through the other zone</p></li>
+
+    </ul>
+
+
+</body>
+</html>
